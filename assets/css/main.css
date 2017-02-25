@@ -3,4 +3,12 @@ body {
 }
 header {
   padding: 40px 0px;
+  text-align: center;
+}
+header .blob {
+  height: 70px;
+}
+header .logo {
+  height: 100px;
+  margin-top: 10px;
 }
