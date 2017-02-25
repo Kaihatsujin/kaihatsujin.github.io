@@ -1,5 +1,5 @@
-name: yukon w.
+name: Kaihatsu
 markdown: kramdown
-permalink: /games/:title
+permalink: /videos/:title
 gems:
   - jekyll-sitemap
