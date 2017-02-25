@@ -1,0 +1,5 @@
+name: yukon w.
+markdown: kramdown
+permalink: /games/:title
+gems:
+  - jekyll-sitemap
