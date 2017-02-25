@@ -13,11 +13,61 @@
 			<meta http-equiv="content-language" content="en_US" />
 			
 			<!-- CSS -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/css/reset.css">
 			<link rel="stylesheet" type="text/css" href="/css/grid.css">
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
-		
 		<body>
+          <header>
+            <div class="container">
+              <div class="col-md-3"></div>
+              <div class="col-md-4">
+                <div class="brand">
+                  KAIHATSU<br />
+                  (開発者)
+                </div>
+              </div>
+              <div class="col-md-2">
+                <img src="assets/img/blob.png" />
+              </div>
+              <div class="col-md-3"></div>
+            </div>
+          </header>
+          <nav>
+            <div class="container">
+              <div class="col-md-12">
+                <ul>
+                  <li>Homepage</li>
+                  <li>Games</li>
+                  <li>Playlists</li>
+                  <li>About</li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+          <section data-section="content">
+            <div class="container">
+              <div class="col-md-12">
+                {{ content }}
+              </div>
+            </div>
+          </section>
+          
+          <footer>
+            <div class="container">
+              <div class="col-md-6">
+                <strong>Copyright</strong><br />
+                2017 - Daniel Goldie-Furlong
+              </div>
+              <div class="col-md-6">
+                SOCIAL MEDIA ICONS HERE
+              </div>
+            </div>
+          </footer>
+          
+          
+          <!-- 
 			<nav>
 	    		<ul>
 	        		<li><a href="/">Videos</a></li>
@@ -29,12 +79,12 @@
 			
 			{{ content }}
 			
-			</div><!-- /.container -->
+			</div>
 			
 			<footer>
 	    		<ul>
 					Copyright Daniel Goldie-Furlong 2017, all rights reserved.
 				</ul>
-			</footer>
+			</footer> -->
 		</body>
 	</html>
