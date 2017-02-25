@@ -41,12 +41,12 @@ nav ul li, footer ul li {
 a, 
 a:visited, 
 a:focus { 
-    color: #a77dc2;
+    color: #494e75;
     text-decoration: none; 
     transition: .15s; 
 }
 a:hover { 
-    color: #86649b; 
+    color: #494e75; 
 }
 a img { 
     border: 0; 
