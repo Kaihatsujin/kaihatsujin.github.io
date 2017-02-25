@@ -3,18 +3,13 @@ layout: default
 title: games
 ---
 <div class="blurb">
-
-	<div class="container">
-		<div class="col-md-6">
-			<h1>daniel is a nerd</h1>
-			<p>memes</p>
-		</div>
-		<div class="col-md-6">
-			<ul class="posts">
-			  {% for post in site.posts %}
-				<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-			  {% endfor %}
-			</ul>
-		</div>
-	</div>
+	<h1>daniel is a nerd</h1>
+	<p>memes</p>
+		
+	<ul class="posts">
+	  {% for post in site.posts %}
+		<iframe width="560" height="315" src="{{ post.link }}" frameborder="0" allowfullscreen></iframe>
+		<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+	</ul>
 </div><!-- /.blurb -->
