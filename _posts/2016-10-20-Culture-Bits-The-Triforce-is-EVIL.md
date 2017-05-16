@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Culture Bits: The Triforce is EVIL?!"
-link: https://www.youtube.com/watch?v=0ACFH8AcW-s
+link: https://www.youtube.com/embed/0ACFH8AcW-s
 date: 2017-10-20
 ---
 
