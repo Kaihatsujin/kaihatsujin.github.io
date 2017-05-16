@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>{{ page.title }} | {{ site.name }}</title>
+			<title>{{ site.name }} | {{ page.title }}</title>
 			
 			<!-- Mobile -->
 			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,74 +12,67 @@
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<meta http-equiv="content-language" content="en_US" />
 			
+			<!-- Tags -->
+			<meta name="description" content="Reviews, gaming and theories – with a purple blob." />
+			<meta name="author" content="Daniel Goldie-Furlong" />
+			<meta name="generator" content="Yukon Wainczak" />
+			
 			<!-- CSS -->
-			<link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
-			<link rel="stylesheet" type="text/css" href="/assets/css/grid.css">
 			<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/assets/css/slider.css">
+			
+			<!-- Icons -->
+			<link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
+			<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
+			<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
+			<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
+			<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
+			<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
+			<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
+			<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
+			<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
+			<link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicon/android-icon-192x192.png">
+			<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+			<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+			<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+			<link rel="manifest" href="/assets/favicon/manifest.json">
+			<meta name="msapplication-TileColor" content="#000000">
+			<meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
+			<meta name="theme-color" content="#E26C3C">
+			
+			<script src="/assets/js/jquery-3.2.0.min.js"></script>
 		</head>
+		
 		<body>
-          <header>
-            <div class="container">
-              <div class="col-md-12">
-                <div class="brand">
-                  <img src="assets/img/blob.png" class="blog" /><br />
-                  <img src="assets/img/logo.png" class="logo" />
-                </div>
-              </div>
-            </div>
-          </header>
-          <nav>
-            <div class="container">
-              <div class="col-md-12">
-                <ul>
-                  <li>Homepage</li>
-                  <li>Games</li>
-                  <li>Playlists</li>
-                  <li>About</li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          
-          <section data-section="content">
-            <div class="container">
-              <div class="col-md-12">
-                {{ content }}
-              </div>
-            </div>
-          </section>
-          
-          <footer>
-            <div class="container">
-              <div class="col-md-6">
-                <strong>Copyright</strong><br />
-                2017 - Daniel Goldie-Furlong
-              </div>
-              <div class="col-md-6">
-                SOCIAL MEDIA ICONS HERE
-              </div>
-            </div>
-          </footer>
-          
-          
-          <!-- 
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Videos</a></li>
-					<li><a href="/about">About</a></li>
-					<li><a href="https://twitter.com/KaihatsuYT">Twitter</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
+			<div class="header">
+				<p><a href="/"><img src="/assets/logo.png" style="max-width: 100%;"></a></p>
+				<ul style="text-align: right;">
+					<li><a href="/">Videos</a></li>
+					<li><a href="/about.html">About</a></li>
+				</ul>
+			</div>
 			
-			{{ content }}
-			
+			<div style="background-color: #e8e8e8;">
+				<div class="container">
+						{{ content }}
+				</div>
 			</div>
 			
 			<footer>
-	    		<ul>
-					Copyright Daniel Goldie-Furlong 2017, all rights reserved.
-				</ul>
-			</footer> -->
+				<div class="container" style="padding: 0px;">
+					<div class="threecol" style="text-align: center;">
+						<p style="margin-bottom: 8px;"><a href="http://www.massdigi.org/" target="_blank"><img src="/assets/massdigi.png" style="max-width: 100%;"></a></p>
+						<p style="margin-top: 8px;"><a href="https://twitter.com/mass_digi" target="_blank"><img src="/assets/social/twitter.png" style="max-width: 100%;"></a>   <a href="https://www.facebook.com/massdigi" target="_blank"><img src="/assets/social/facebook.png" style="max-width: 100%;"></a>   <a href="https://www.youtube.com/channel/UCzspAPBwot2gSmpTxjEh55Q" target="_blank"><img src="/assets/social/youtube.png" style="max-width: 100%;"></a></p>
+					</div>
+					<div class="threecol" style="text-align: center;">
+						<p style="margin-bottom: 8px;"><a href="http://petricoregames.com/" target="_blank"><img src="/assets/petricore.png" style="max-width: 100%;"></a></p>
+						<p style="margin-top: 8px;"><a href="https://twitter.com/PetricoreGames" target="_blank"><img src="/assets/social/twitter.png" style="max-width: 100%;"></a>   <a href="https://www.facebook.com/PetricoreInc/" target="_blank"><img src="/assets/social/facebook.png" style="max-width: 100%;"></a>   <a href="https://www.youtube.com/channel/UCgN1qnsXxKz9JJ2HE5QkXjQ" target="_blank"><img src="/assets/social/youtube.png" style="max-width: 100%;"></a></p>
+					</div>
+					<div class="threecol" style="text-align: center;">
+						<p style="margin-bottom: 8px;"><a href="https://www.yale.edu/" target="_blank"><img src="/assets/yale.png" style="max-width: 100%;"></a></p>
+						<p style="margin-top: 8px;"><a href="https://twitter.com/yale" target="_blank"><img src="/assets/social/twitter.png" style="max-width: 100%;"></a>   <a href="https://www.facebook.com/YaleUniversity" target="_blank"><img src="/assets/social/facebook.png" style="max-width: 100%;"></a>   <a href="https://www.youtube.com/yale" target="_blank"><img src="/assets/social/youtube.png" style="max-width: 100%;"></a></p>
+					</div>
+				</div>
+			</footer>
 		</body>
 	</html>

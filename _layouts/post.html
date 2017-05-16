@@ -1,10 +1,8 @@
 ---
 layout: default
 ---
+<h2><a href="/updates.html">&#10094 Back?</a><h2>
+<hr>
 <h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-	<iframe width="560" height="315" src="{{ page.link }}" frameborder="0" allowfullscreen></iframe>
-  {{ content }}
-</div>
+<h2 class="meta">{{ page.date | date: "%m/%d/%Y" }}</h2>
+{{ content | replace: '<!--more-->', '<a class="anchor" id="read-more"></a>' }}
