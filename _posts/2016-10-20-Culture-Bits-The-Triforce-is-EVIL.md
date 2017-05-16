@@ -2,7 +2,7 @@
 layout: post
 title: "Culture Bits: The Triforce is EVIL?!"
 link: https://www.youtube.com/embed/0ACFH8AcW-s
-date: 2017-10-20
+date: 2016-10-20
 ---
 
 Welcome to Culture Bits! Another new series of videos aimed at exploring history and culture from all over the planet that has influenced the video games we play.
