@@ -1,5 +1,0 @@
-name: Kaihatsu
-markdown: kramdown
-permalink: /videos/:title
-gems:
-  - jekyll-sitemap
