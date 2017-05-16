@@ -8,8 +8,7 @@ title: Videos
 <div class="container">
 	{% for post in site.posts %}
 				<div class="threecol" style="text-align: center;">
-					<iframe width="560" height="315" src="{{ post.link }}" frameborder="0" allowfullscreen></iframe>
-					<li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+					<iframe width="100%" src="{{ post.link }}" frameborder="0" allowfullscreen></iframe>
 				</div>
 	{% endfor %}
 </div>
