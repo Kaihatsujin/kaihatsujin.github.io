@@ -52,13 +52,13 @@ footer {
 a, 
 a:visited, 
 a:focus { 
-    color: #E26C3C;
+    color: #282F48;
     text-decoration: none; 
     transition: .15s; 
 }
 
 a:hover { 
-    color: #C24F11; 
+    color: #282F48; 
 }
 
 a img { 
