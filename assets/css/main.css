@@ -97,7 +97,7 @@ a img {
 }
 
 .header ul li a:hover { 
-    background-color: #E26C3C;
+    background-color: #282F48;
 	padding: 4px;
 	padding-right: 8px;
 	padding-left: 8px;
@@ -107,8 +107,8 @@ hr {
     border: none;
     height: 4px;
 	width: 90%;
-    color: #E26C3C;
-    background-color: #E26C3C;
+    color: #494E75;
+    background-color: #494E75;
 }
 
 @media (max-width: 800px) {	
