@@ -5,8 +5,10 @@ title: Videos
 
 <p>Reviews, gaming and theories – with a purple blob.</p>
 <hr>
-{% for post in site.posts %}
-	<div class="threecol" style="text-align: center;">
-		<iframe width="100%" src="{{ post.link }}" frameborder="0" allowfullscreen></iframe>
-	</div>
-{% endfor %}
+<div class="container">
+	{% for post in site.posts %}
+		<div class="threecol" style="text-align: center;">
+			<iframe width="100%" src="{{ post.link }}" frameborder="0" allowfullscreen></iframe>
+		</div>
+	{% endfor %}
+</div>
