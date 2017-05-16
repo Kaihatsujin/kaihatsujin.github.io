@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Culture Bits: Occult symbolism in Pokémon"
-link: https://www.youtube.com/embed/0ACFH8AcW-s
+link: https://www.youtube.com/embed/4Ktg0J_ZDc8
 date: 2016-11-11
 ---
 
