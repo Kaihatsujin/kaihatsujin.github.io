@@ -18,15 +18,18 @@ body {
 }
 
 footer {
+	color: #000000;
+	box-sizing: border-box;
 	font-size: 24px;
-
-    line-height: 1.5;
+	line-height: 1.5;
 }
 
-footer {
-	color: #ffffff;
-	box-sizing: border-box;
-	line-height: 1.5;
+footer a, 
+footer a:visited, 
+footer a:focus { 
+    color: #ffffff;
+    text-decoration: none; 
+    transition: .15s;
 }
 
 .container {
@@ -40,8 +43,8 @@ footer {
 	width: 50%;
 	overflow: auto;
 	float: left;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 .threecol {
