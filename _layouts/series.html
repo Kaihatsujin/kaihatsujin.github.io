@@ -9,7 +9,7 @@ layout: default
 	{% for post in site.posts %}
 		{% if post.series contains {{ page.keyword }} %}
 			<div class="threecol" style="text-align: center;">
-				<iframe width="95%" src="{{ post.link }}" frameborder="0" allowfullscreen></iframe>
+				<iframe width="95%" src="{{ post.embed }}" frameborder="0" allowfullscreen></iframe>
 			</div>
 		{% endif %}
 	{% endfor %}
