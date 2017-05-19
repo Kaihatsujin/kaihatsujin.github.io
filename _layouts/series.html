@@ -7,7 +7,7 @@ layout: default
 <hr>
 <div class="container" style="padding-left: 0em; padding-right: 0em; overflow:auto; ">
 	{% for post in site.posts %}
-		{% if post.series contains {{ page.keyword }} %}
+		{% if post.series contains page.keyword %}
 			<div class="threecol" style="text-align: center;">
 				<iframe width="95%" src="{{ post.embed }}" frameborder="0" allowfullscreen></iframe>
 			</div>
