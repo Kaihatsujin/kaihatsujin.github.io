@@ -5,7 +5,7 @@ layout: default
 <hr>
 <p style="text-align: center;"><img style="max-width: 100%;" src = "/assets/icons/{{ page.keyword }}.png"></p>
 <hr>
-<div class="container" style="padding-left: 0em; padding-right: 0em; overflow:auto; ">
+<div class="container video-grid" style="padding-left: 0em; padding-right: 0em; overflow:auto; ">
 	{% for post in site.posts %}
 		{% if post.series contains page.keyword %}
 			<div class="threecol">
