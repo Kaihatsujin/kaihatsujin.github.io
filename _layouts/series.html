@@ -8,8 +8,8 @@ layout: default
 <div class="container" style="padding-left: 0em; padding-right: 0em; overflow:auto; ">
 	{% for post in site.posts %}
 		{% if post.series contains page.keyword %}
-			<div class="threecol" style="text-align: center;">
-				<p<a href="{{ post.url }}"><img style="max-width: 100%;" src = {{ post.thumb }}></a></p>
+			<div class="threecol">
+				<p><a href="{{ post.url }}"><img style="max-width: 100%;" src = {{ post.thumb }}></a></p>
 				<p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
 			</div>
 		{% endif %}
