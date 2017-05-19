@@ -14,9 +14,9 @@ layout: default
 					<p style="margin-top: 0em;"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
 				</div>
 			</div>
-			{% if loop.index % 3 == 0 %}
-				<div style="clear: both;"></div>
-			{% endif %}
+		{% endif %}
+		{% if loop.index % 3 == 0 %}
+			<div style="clear: both;"></div>
 		{% endif %}
 	{% endfor %}
 </div>
