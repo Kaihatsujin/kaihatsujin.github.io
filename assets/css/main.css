@@ -133,6 +133,12 @@ hr {
   left: 0;
 }
 
+.videos-grid .threecol:nth-child(3n) {
+content: "";
+display: block;
+clear: both;
+}
+
 @media (max-width: 800px) {	
 	body {
 		font-size: 20px;
