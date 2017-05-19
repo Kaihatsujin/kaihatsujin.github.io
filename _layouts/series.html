@@ -5,7 +5,7 @@ layout: default
 <hr>
 <p style="text-align: center;"><img style="max-width: 100%;" src = "/assets/icons/{{ page.keyword }}.png"></p>
 <hr>
-<div class="container videos-grid" style="padding-left: 0em; padding-right: 0em; overflow:auto; ">
+<div class="container" style="padding-left: 0em; padding-right: 0em; overflow:auto; ">
 	{% for post in site.posts %}
 		{% if post.series contains page.keyword %}
 			<div class="threecol">
@@ -14,6 +14,7 @@ layout: default
 					<p style="margin-top: 0em;"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
 				</div>
 			</div>
+			{% if loop.index % 3 == 0 %} <div style="clear: both;"></div>{% endif %}
 		{% endif %}
 	{% endfor %}
 </div>
