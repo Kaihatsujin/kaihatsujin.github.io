@@ -115,6 +115,24 @@ hr {
     background-color: #494E75;
 }
 
+.video {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.video:after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
 @media (max-width: 800px) {	
 	body {
 		font-size: 20px;
