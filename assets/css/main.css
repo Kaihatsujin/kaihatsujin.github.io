@@ -133,7 +133,7 @@ hr {
   left: 0;
 }
 
-.videos-grid .threecol:nth-child(3n) {
+.videos-grid .threecol:nth-child(3n):after {
 content: "";
 display: block;
 clear: both;
