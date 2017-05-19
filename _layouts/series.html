@@ -7,6 +7,7 @@ layout: default
 <hr>
 <div class="container" style="padding-left: 0em; padding-right: 0em; overflow:auto; ">
 	{% for post in site.posts %}
+		{% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
 		{% if post.series contains page.keyword %}
 			<div class="threecol">
 				<div style="width: 95%; overflow: auto;">
@@ -15,7 +16,7 @@ layout: default
 				</div>
 			</div>
 		{% endif %}
-		{% if forloop.index is divisibleby(3) %}
+		{% if modulo == '0'%}
 			<div style="clear: both;"></div>
 		{% endif %}
 	{% endfor %}
