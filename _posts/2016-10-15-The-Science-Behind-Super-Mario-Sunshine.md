@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Science behind Super Mario Sunshine"
-series: "science"
+series: "the-science-behind"
 embed: https://www.youtube.com/embed/cZRMHv8k7qA
 thumb: "/assets/thumbnails/science/1_sunshine.jpg"
 date: 2016-10-15
