@@ -15,11 +15,9 @@ layout: default
 						<p style="margin-top: 0em;"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
 					</div>
 				</div>
-		{% else %}
-			{% assign loopindex = loopindex - 1 %}
 		{% endif %}
 		
-		{% if loopindex == 3 %}
+		{% if loopindex == 1 %}
 			<div style="clear: both;"></div>
 		{% endif %}
 	{% endfor %}
