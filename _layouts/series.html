@@ -7,16 +7,19 @@ layout: default
 <hr>
 <div class="container" style="padding-left: 0em; padding-right: 0em; overflow:auto; ">
 	{% for post in site.posts %}
-		{% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+		{% assign loopindex = forloop.index | modulo: 3 %}
 		{% if post.series contains page.keyword %}
-			<div class="threecol">
-				<div style="width: 95%; overflow: auto;">
-					<p style="margin-bottom: 0em;"><a href="{{ post.url }}"><img style="max-width: 100%;" src = {{ post.thumb }}></a></p>
-					<p style="margin-top: 0em;"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
+				<div class="threecol">
+					<div style="width: 95%; overflow: auto;">
+						<p style="margin-bottom: 0em;"><a href="{{ post.url }}"><img style="max-width: 100%;" src = {{ post.thumb }}></a></p>
+						<p style="margin-top: 0em;"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
+					</div>
 				</div>
-			</div>
+		{% else %}
+			{% assign loopindex = loopindex - 1 %}
 		{% endif %}
-		{% if modulo == '0'%}
+		
+		{% if loopindex == 1 %}
 			<div style="clear: both;"></div>
 		{% endif %}
 	{% endfor %}
