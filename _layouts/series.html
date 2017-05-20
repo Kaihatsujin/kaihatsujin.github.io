@@ -16,7 +16,7 @@ layout: default
 						<p style="margin-top: 0em;"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
 					</div>
 				</div>
-			{% loopindex | plus: 1 %}
+			{% assign loopindex | plus: 1 %}
 			{% assign loopfirst = true %}
 		{% endif %}
 		
