@@ -21,7 +21,7 @@ layout: default
 		{% endif %}
 		
 		{% assign currentloopindex = loopindex %}
-		{% assign currentloopindex | modulo: 3 %}
+		{% assign currentloopindex  = currentloopindex | modulo: 3 %}
 		{% if currentloopindex == 0 and loopfirst == true %}
 			<div style="clear: both;"></div>
 		{% endif %}
