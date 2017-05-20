@@ -20,7 +20,8 @@ layout: default
 			{% assign loopfirst = true %}
 		{% endif %}
 		
-		{% assign currentloopindex = loopindex | modulo: 3 %}
+		{% assign currentloopindex = loopindex %}
+		{{ currentloopindex | modulo: 3 }}
 		{% if currentloopindex == 0 and loopfirst == true %}
 			<div style="clear: both;"></div>
 		{% endif %}
