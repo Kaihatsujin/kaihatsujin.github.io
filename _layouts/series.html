@@ -24,6 +24,9 @@ layout: default
 		{% assign currentloopindex  = currentloopindex | modulo: 3 %}
 		{% if currentloopindex == 0 and loopfirst == true %}
 			<div style="clear: both;"></div>
+			{% assign loopindex = 0 %}
+			{% assign loopfirst = false %}
+			{% assign currentloopindex = 0 %}
 		{% endif %}
 	{% endfor %}
 </div>
