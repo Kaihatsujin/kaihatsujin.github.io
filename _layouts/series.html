@@ -7,6 +7,7 @@ layout: default
 <hr>
 <div class="container" style="padding-left: 0em; padding-right: 0em; overflow:auto; ">
 	{% assign loopindex = 0 %}
+	{% assign loopfirst = false %}
 	{% for post in site.posts %}
 		{% if post.series contains page.keyword %}
 				<div class="threecol">
@@ -15,11 +16,12 @@ layout: default
 						<p style="margin-top: 0em;"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
 					</div>
 				</div>
-			{% assign loopindex = loopindex + 1 %}
+			{% loopindex | plus: 1 %}
+			{% assign loopfirst = true %}
 		{% endif %}
 		
-		{% assign loopindex = loopindex | modulo: 3 %}
-		{% if loopindex == 1 %}
+		{% assign currentloopindex = loopindex | modulo: 3 %}
+		{% if currentloopindex == 0 and loopfirst == true %}
 			<div style="clear: both;"></div>
 		{% endif %}
 	{% endfor %}
