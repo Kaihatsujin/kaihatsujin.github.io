@@ -3,7 +3,7 @@ layout: post
 title: "SOUTH AMERICAN CULTURE in Mario Odyssey?! | Culture Bits"
 series: "culture-bits"
 embed: https://www.youtube.com/embed/R1C9TpKNSoU
-thumb: "/assets/thumbnails/culture-bits/culture-bits-aztec"
+thumb: "/assets/thumbnails/culture-bits/culture-bits-aztec-gods-mario-new.png"
 date: 2017-06-26
 ---
 
