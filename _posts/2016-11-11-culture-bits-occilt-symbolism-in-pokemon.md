@@ -7,6 +7,6 @@ thumb: "/assets/thumbnails/culture-bits/2_occult.png"
 date: 2016-11-11
 ---
 
-After watching Lockstin's series of videos about alchemical symbolism, there were a few things I noticed in other Pokémon games, so I thought I would make a video about it!
+After seeing Super Mario Odyssey at E3 I got really excited at all of the cultural references put in the game, and after seeing other culture lover Gaijin Goomba mention it in a video, I thought I'd put my own ideas out there!
 
-This video is out a little later than planned, and as such some things may or may not have been proved/disproved with the Pokémon Sun & Moon leaks.
+Today we take a look at a possible reference to an ancient Aztec god in Mario odyssey, as well as some mysterious statues...
