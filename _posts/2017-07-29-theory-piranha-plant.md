@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Theory: The Pokédollar's TRUE VALUE?"
+title: "What IS a Piranha plant? | Kaihatsu Theory"
 series: "theory"
 embed: https://www.youtube.com/embed/bVLm132Ozi8
 thumb: "/assets/thumbnails/theory/theory-piranha-plant-new.png"
