@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "The SECRET of the WAVE EMOJI! | Culture Bits"
+title: "Miis & Ukiyo-e (Wave emoji footnote) | Culture Bits Lite"
 series: "culture-bits"
-embed: https://www.youtube.com/embed/rma5p-gA78w
-thumb: "/assets/thumbnails/culture-bits/culture-bits-wave-emoji-kanagawa.png"
-date: 2017-08-19
+embed: https://www.youtube.com/embed/VqK6lldEdA8
+thumb: "/assets/thumbnails/culture-bits/lite-miis-ukiyo-e-footnote.png"
+date: 2017-08-24
 ---
 
-A little late, but after being reminded of a piece of trivia by the Emoji Movie, today we delve into how Japanese Woodblock prints are related to the wave emoji!
+This is essentially a footnote for the last video, as there were a few things that happened recently with Ukiyo-e and games that I didn't mention in the last video. I recommend watching that one first for this reason. Anyways, today, I talk about how Nintendo has been taking inspiration from Ukiyo-e artists! 
