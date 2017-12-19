@@ -3,7 +3,7 @@ layout: post
 title: "Nostalgia Trip — Trailer"
 series: "nostalgia-trip"
 embed: https://www.youtube.com/embed/GxyE-ZhgknE
-thumb: "/assets/thumbnails/nostalgia-trip/thumb.png"
+thumb: "/assets/thumbnails/nostalgia-trip/nt-thumb.png"
 date: 2017-12-19
 ---
 
