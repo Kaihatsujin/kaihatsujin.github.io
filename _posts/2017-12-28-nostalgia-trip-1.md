@@ -2,7 +2,7 @@
 layout: post
 title: "The DS Lite — 10 Years On | Nostalgia Trip #1"
 series: "nostalgia-trip"
-embed: https://www.youtube.com/embed/PA4WQQjuHWY
+embed: https://www.youtube.com/embed/1mGF3cvIzHU
 thumb: "/assets/thumbnails/nostalgia-trip/nostalgia-1.png"
 date: 2017-12-28
 ---
