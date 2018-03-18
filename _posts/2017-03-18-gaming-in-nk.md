@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Minecraft is COMMUNIST! | Marxist March"
+title: "What is gaming like in North Korea? | Marxist March"
 series: "marxist-march"
 embed: https://www.youtube.com/embed/CYCUUV6LHZA
 thumb: "/assets/thumbnails/marxist-march/gaming-nk.png"
