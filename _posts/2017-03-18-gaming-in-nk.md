@@ -2,7 +2,7 @@
 layout: post
 title: "What is gaming like in North Korea? | Marxist March"
 series: "marxist-march"
-embed: https://www.youtube.com/embed/CYCUUV6LHZA
+embed: https://www.youtube.com/embed/hElhW574zgI
 thumb: "/assets/thumbnails/marxist-march/gaming-nk.png"
 date: 2018-03-18
 ---
