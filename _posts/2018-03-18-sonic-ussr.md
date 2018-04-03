@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Save changesSonic CAUSED the collapse of communism! | Marxist March"
+title: "Sonic CAUSED the collapse of communism! | Marxist March"
 series: "marxist-march"
 embed: https://www.youtube.com/embed/ZZLyDeFJjJ0
 thumb: "/assets/thumbnails/marxist-march/sonic-ussr.png"
