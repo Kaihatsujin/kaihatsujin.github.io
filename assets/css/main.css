@@ -1,16 +1,9 @@
-@font-face {
-    font-family: 'Pop Happiness';
-    src: url("/assets/css/FOT-PopHappinessStd-EB.ttf");
-}
-
-div {
-    font-family: 'Pop happiness';
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
 	background-color: #494E75; 
 	
-	font-family: 'Pop Happiness'
+	font-family: 'Raleway', sans-serif;
 	
 	text-align: left;
 	
