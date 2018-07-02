@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face {
+     font-family: FOT-PopHappinessStd-EB;
+     src: url('kaihatsujin.github.io/assets/css/FOT-PopHappinessStd-EB.ttf'); 
+}
 
 body {
 	background-color: #494E75; 
 	
-	font-family: 'Raleway', sans-serif;
+	font-family: 'FOT-PopHappinessStd-EB', sans-serif;
 	
 	text-align: left;
 	
