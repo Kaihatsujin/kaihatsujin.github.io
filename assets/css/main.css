@@ -1,6 +1,10 @@
 @font-face {
-     font-family: FOT-PopHappinessStd-EB;
-     src: url('kaihatsujin.github.io/assets/css/FOT-PopHappinessStd-EB.ttf'); 
+    font-family: FOT-PopHappinessStd;
+    src: url(kaihatsujin.github.io/assets/css/FOT-PopHappinessStd-EB.ttf);
+}
+
+div {
+    font-family: myFirstFont;
 }
 
 body {
