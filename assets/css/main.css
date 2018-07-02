@@ -1,14 +1,16 @@
 @font-face {
-    font-family: "FOT-PopHappiness Std";
+    font-family: 'FOT-PopHappiness Std';
     src: url(kaihatsujin.github.io/assets/css/FOT-PopHappinessStd-EB.ttf);
 }
 
 div {
-    font-family: "FOT-PopHappinessStd";
+    font-family: 'FOT-PopHappinessStd';
 }
 
 body {
 	background-color: #494E75; 
+	
+	font-family: 'FOT-PopHappiness Std'
 	
 	text-align: left;
 	
