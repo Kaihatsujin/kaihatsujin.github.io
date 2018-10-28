@@ -1,3 +1,4 @@
+---
 layout: post
 title: "Mario 3D World's SINISTER Spirits! | Culture Bits"
 series: "culture-bits"
