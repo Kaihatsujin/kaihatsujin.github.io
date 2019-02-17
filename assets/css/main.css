@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+/*@import url('https://fonts.googleapis.com/css?family=Raleway');*/
 
 body {
 	background-color: #494E75; 
 	
-	font-family: 'Raleway', sans-serif;
+	@font-face {
+	font-family: 'FOT-PopHappiness Std EB';
+	url('FOT-PopHappinessStd-EB.woff') format('woff'),
+	/*font-family: 'Raleway', sans-serif;*/
+		
+	font-family: 'FOT-PopHappiness Std EB', sans-serif;
 	
 	text-align: left;
 	
