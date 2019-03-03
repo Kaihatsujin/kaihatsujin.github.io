@@ -3,7 +3,7 @@ layout: post
 title: "What IS Victreebel?"
 series: "theory"
 embed: https://www.youtube.com/embed/5B1KJ0B7lEc
-thumb: "/assets/thumbnails/nostalgia-trip/what-is-victree.jpg"
+thumb: "/assets/thumbnails/theory/what-is-victree.jpg"
 date: 2019-03-02
 ---
 
