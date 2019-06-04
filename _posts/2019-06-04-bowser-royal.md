@@ -2,7 +2,7 @@
 layout: post
 title: "The Thousand Year History behind Bowser's Spiky Bands! | Culture Bits"
 series: "culture-bits"
-embed: https://www.youtube.com/embed/zPVIekKLZWQ
+embed: https://www.youtube.com/embed/Yr6BsTg8lEc
 thumb: "/assets/thumbnails/culture-bits/bowser_royal_new_2.png"
 date: 2019-06-04
 ---
