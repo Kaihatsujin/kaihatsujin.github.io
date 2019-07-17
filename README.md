@@ -1,4 +1,4 @@
-# Kaihatsusha.com
+# Kaihat.su
 The "official" Kaihatsu website.
 
 ## How-to:
