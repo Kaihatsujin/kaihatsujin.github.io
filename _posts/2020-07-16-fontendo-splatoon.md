@@ -2,7 +2,7 @@
 layout: post
 title: "How Splatoon's fonts were created"
 series: "fontendo"
-embed: https://www.youtube.com/embed/a6RD0gBsTfc
+embed: https://www.youtube.com/embed/ebG4poenbq0
 thumb: "/assets/thumbnails/fontendo/fontendo-splatoon-v2.png"
 date: 2020-07-16
 ---
