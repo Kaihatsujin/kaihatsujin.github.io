@@ -23,7 +23,7 @@ date: 2017-04-12
 4. Edit this header to represent the new video.
   * LEAVE LAYOUT ALONE!
   * title is the title of the video. Make sure it's surrounded by "".
-  * series is the series keyword. examples are culture-bits, the-science-behind, theory, & marxist-march. Please contact Yukon is you need help adding a new series.
+  * series is the series keyword. examples are culture-bits, nostalgia-trip and fontendo. Please contact Yukon if you need help adding a new series.
   * embed is the embed link to the video. It's in the iframe Youtube gives you when you hit share > embed.
   * thumb is the thumbnail directory to the wanted thumbnail.
   * date is the date the video was released.
