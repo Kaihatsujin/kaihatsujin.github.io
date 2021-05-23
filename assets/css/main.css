@@ -42,9 +42,10 @@ body {
     font-weight: 950;
 }
 
-
+p {
+ 
 	color: #444444;
-    
+        font-family: 'FOT-RodinNTLGProM';
 	font-size: 24px;
 
     line-height: 1.5;
