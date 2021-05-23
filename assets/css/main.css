@@ -1,20 +1,25 @@
 body {
 	background-color: #494E75; 
-	
-@font-face {
-    font-family: 'FOT-RodinNTLGProB';
-    src: url('FOT-RodinNTLGPro-B.woff2') format('woff2'), /* Modern Browsers */
-         url('FOT-RodinNTLGPro-B.otf') format('opentype'); /* Safari, Android, iOS */
-             font-style: normal;
-    font-weight: 700;
-}
 
 @font-face {
     font-family: 'FOT-RodinNTLGProM';
     src: url('FOT-RodinNTLGPro-M.woff2') format('woff2'), /* Modern Browsers */
-         url('FOT-RodinNTLGPro-M.otf') format('opentype'); /* Safari, Android, iOS */
              font-style: normal;
     font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FOT-RodinNTLGProDB';
+    src: url('FOT-RodinNTLGPro-DB.woff2') format('woff2'), /* Modern Browsers */
+             font-style: normal;
+    font-weight: 600;
+}
+	
+@font-face {
+    font-family: 'FOT-RodinNTLGProB';
+    src: url('FOT-RodinNTLGPro-B.woff2') format('woff2'), /* Modern Browsers */
+             font-style: normal;
+    font-weight: 700;
 }
 	
 
