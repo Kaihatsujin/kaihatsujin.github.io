@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'FOT-RodinNTLGProM';
     src: url('FOT-RodinNTLGPro-M.woff2') format('woff2'), /* Modern Browsers */
+         url('FOT-RodinNTLGPro-M.otf') format('opentype'); /* Safari, Android, iOS */
     font-style: normal;    
     font-weight: 400;
 }
