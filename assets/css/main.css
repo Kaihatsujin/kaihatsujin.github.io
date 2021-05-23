@@ -1,11 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
 body {
 	background-color: #494E75; 
 	
-font-family: 'Raleway', sans-serif;	
-	text-align: left;
+@font-face {
+    font-family: 'FOT-RodinNTLGProB';
+    src: url('FOT-RodinNTLGPro-B.woff2') format('woff2'), /* Modern Browsers */
+         url('FOT-RodinNTLGPro-B.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'FOT-RodinNTLGProM';
+    src: url('FOT-RodinNTLGPro-M.woff2') format('woff2'), /* Modern Browsers */
+         url('FOT-RodinNTLGPro-M.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
 	
+
 	color: #444444;
     
 	font-size: 24px;
