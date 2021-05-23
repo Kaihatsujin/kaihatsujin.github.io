@@ -49,6 +49,7 @@
 
 body {
 	background-color: #494E75;
+        font-family: 'FOT-RodinNTLG Pro';
 	color: #444444;
         font-weight: 500;
 	font-size: 24px;
@@ -173,17 +174,6 @@ hr {
   bottom: 0;
   right: 0;
   left: 0;
-}
-
-p {
-color: #444444;
-        font-family: 'FOT-RodinNTLGProM';
-	font-size: 24px;
-
-    line-height: 1.5;
-	margin: 0px;
-	
-	box-sizing: border-box;
 }
 
 @media (max-width: 800px) {	
