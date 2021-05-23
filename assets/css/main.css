@@ -3,21 +3,21 @@ body {
 
 @font-face {
     font-family: 'FOT-RodinNTLGProM';
-    src: url('FOT-RodinNTLGPro-M.woff2') format('woff2'), /* Modern Browsers */
+    src: url('assets/css/FOT-RodinNTLGPro-M.woff2') format('woff2'), /* Modern Browsers */
              font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'FOT-RodinNTLGProDB';
-    src: url('FOT-RodinNTLGPro-DB.woff2') format('woff2'), /* Modern Browsers */
+    src: url('assets/css/FOT-RodinNTLGPro-DB.woff2') format('woff2'), /* Modern Browsers */
              font-style: normal;
     font-weight: 600;
 }
 	
 @font-face {
     font-family: 'FOT-RodinNTLGProB';
-    src: url('FOT-RodinNTLGPro-B.woff2') format('woff2'), /* Modern Browsers */
+    src: url('assets/css/FOT-RodinNTLGPro-B.woff2') format('woff2'), /* Modern Browsers */
              font-style: normal;
     font-weight: 700;
 }
