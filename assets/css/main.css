@@ -4,7 +4,7 @@
         url('RodinNTLGPro-EB.woff') format('woff');
     font-weight: 800;
     font-style: normal;
-    font-display: swap;
+
 }
 
 @font-face {
@@ -13,7 +13,6 @@
         url('RodinNTLGPro-DB.woff') format('woff');
     font-weight: 600;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
@@ -22,7 +21,6 @@
         url('RodinNTLGPro-B.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
@@ -31,7 +29,6 @@
         url('RodinNTLGPro-L.woff') format('woff');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
@@ -40,7 +37,6 @@
         url('RodinNTLGPro-M.woff') format('woff');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
@@ -49,7 +45,6 @@
         url('RodinNTLGPro-UB.woff') format('woff');
     font-weight: 900;
     font-style: normal;
-    font-display: swap;
 }
 
 body {
