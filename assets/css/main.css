@@ -6,8 +6,7 @@ body {
     src: url('FOT-RodinNTLGPro-B.woff2') format('woff2'), /* Modern Browsers */
          url('FOT-RodinNTLGPro-B.otf') format('opentype'); /* Safari, Android, iOS */
              font-style: normal;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
+    font-weight: 700;
 }
 
 @font-face {
@@ -15,8 +14,7 @@ body {
     src: url('FOT-RodinNTLGPro-M.woff2') format('woff2'), /* Modern Browsers */
          url('FOT-RodinNTLGPro-M.otf') format('opentype'); /* Safari, Android, iOS */
              font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
+    font-weight: 400;
 }
 	
 
