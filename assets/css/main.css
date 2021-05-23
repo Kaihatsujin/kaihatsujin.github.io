@@ -1,15 +1,62 @@
 @font-face {
-    font-family: 'FOT-RodinNTLGProM';
-    src: url('FOT-RodinNTLGPro-M.woff2') format('woff2'), /* Modern Browsers */
-         url('FOT-RodinNTLGPro-M.otf') format('opentype'); /* Safari, Android, iOS */
-    font-style: normal;    
-    font-weight: 400;
+    font-family: 'FOT-RodinNTLG Pro';
+    src: url('RodinNTLGPro-EB.woff2') format('woff2'),
+        url('RodinNTLGPro-EB.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FOT-RodinNTLG Pro';
+    src: url('RodinNTLGPro-DB.woff2') format('woff2'),
+        url('RodinNTLGPro-DB.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FOT-RodinNTLG Pro';
+    src: url('RodinNTLGPro-B.woff2') format('woff2'),
+        url('RodinNTLGPro-B.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FOT-RodinNTLG Pro';
+    src: url('RodinNTLGPro-L.woff2') format('woff2'),
+        url('RodinNTLGPro-L.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FOT-RodinNTLG Pro';
+    src: url('RodinNTLGPro-M.woff2') format('woff2'),
+        url('RodinNTLGPro-M.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FOT-RodinNTLG Pro';
+    src: url('RodinNTLGPro-UB.woff2') format('woff2'),
+        url('RodinNTLGPro-UB.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
 
 body {
 	background-color: #494E75;
 	color: #444444;
-        font-family: 'FOT-RodinNTLGProM';
+        font-family: 'FOT-RodinNTLGPro';
+        font-weight: 500;
 	font-size: 24px;
 
     line-height: 1.5;

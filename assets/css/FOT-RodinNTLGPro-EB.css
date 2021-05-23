@@ -1,9 +1,0 @@
-/* Webfont: RodinNTLGPro-EB */@font-face {
-    font-family: 'FOT-RodinNTLGProEB';
-    src: url('FOT-RodinNTLGPro-EB.woff2') format('woff2'), /* Modern Browsers */
-         url('FOT-RodinNTLGPro-EB.otf') format('opentype'); /* Safari, Android, iOS */
-             font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
