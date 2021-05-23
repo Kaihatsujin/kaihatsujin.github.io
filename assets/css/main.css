@@ -2,26 +2,46 @@ body {
 	background-color: #494E75; 
 
 @font-face {
+    font-family: 'FOT-RodinNTLGProL';
+    src: url('assets/css/FOT-RodinNTLGPro-L.woff2') format('woff2'), /* Modern Browsers */
+    font-weight: 300;
+}
+
+@font-face {
     font-family: 'FOT-RodinNTLGProM';
     src: url('assets/css/FOT-RodinNTLGPro-M.woff2') format('woff2'), /* Modern Browsers */
-             font-style: normal;
+    font-style: normal;    
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'FOT-RodinNTLGProDB';
     src: url('assets/css/FOT-RodinNTLGPro-DB.woff2') format('woff2'), /* Modern Browsers */
-             font-style: normal;
+    font-style: normal;   
     font-weight: 600;
 }
 	
 @font-face {
     font-family: 'FOT-RodinNTLGProB';
     src: url('assets/css/FOT-RodinNTLGPro-B.woff2') format('woff2'), /* Modern Browsers */
-             font-style: normal;
-    font-weight: 700;
+    font-style: normal;   
+    font-weight: bold; /* font-weight: 700; */
 }
 	
+@font-face {
+    font-family: 'FOT-RodinNTLGProEB';
+    src: url('assets/css/FOT-RodinNTLGPro-EB.woff2') format('woff2'), /* Modern Browsers */
+    font-style: normal;   
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'FOT-RodinNTLGProUB';
+    src: url('assets/css/FOT-RodinNTLGPro-UB.woff2') format('woff2'), /* Modern Browsers */
+    font-style: normal;   
+    font-weight: 950;
+}
+
 
 	color: #444444;
     
