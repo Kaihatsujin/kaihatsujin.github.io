@@ -3,12 +3,7 @@
 body {
 	background-color: #494E75; 
 	
-@font-face {
-  font-family: 'FOT-RodinNTLGPro-M';
-  font-style: normal;
-  src: local('FOT-RodinNTLGPro-M'), local('FOT-RodinNTLGPro-M'), url(kaihatsujin.github.io/assets/css/FOT-RodinNTLGPro-M.woff2) format('woff2');
-}
-	
+font-family: 'Raleway', sans-serif;	
 	text-align: left;
 	
 	color: #444444;
