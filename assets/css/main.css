@@ -168,6 +168,17 @@ hr {
   left: 0;
 }
 
+p {
+color: #444444;
+        font-family: 'FOT-RodinNTLGProM';
+	font-size: 24px;
+
+    line-height: 1.5;
+	margin: 0px;
+	
+	box-sizing: border-box;
+}
+
 @media (max-width: 800px) {	
 	body {
 		font-size: 20px;
