@@ -1,0 +1,50 @@
+Developing Game Concepts
+ゲームコンセプトの開発
+
+Game Art Production
+ゲームアート制作
+
+Game Engines and the Principles of Programming
+ゲームエンジンとプログラミングの原則
+
+Quality Assurance & User Experience
+品質保証とユーザーエクスペリエンス
+
+Game Studies and Criticism
+ゲーム研究と批評
+
+Success through Failure: How we learn from Disaster
+失敗からの成功：災害からいかに学ぶか
+
+Gameplay and Narrative Design
+ゲームプレイとナラティブデザイン
+
+3D Design for Games
+ゲームのための3Dデザイン
+
+Level Design and Scripting
+レベルデザインとスクリプティング
+
+Interactive Media Production
+インタラクティブメディア制作
+
+User Interfaces and Interaction Design
+ユーザーインターフェースとインタラクションデザイン
+
+Global Change
+グローバル・チェンジ（地球変動）
+
+Production & Leadership
+制作とリーダーシップ
+
+Environment Art Production
+環境アート制作
+
+Character Art Production
+キャラクターアート制作
+
+Professional Project
+プロフェッショナルプロジェクト
+
+Game Design Practice
+ゲームデザイン実習
